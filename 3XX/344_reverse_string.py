@@ -4,7 +4,10 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        return s[::-1]
+        r = ''
+        for i in range(len(s)):
+            r += s[-1 * (i + 1)]
+        return r
 
 
 if __name__ == '__main__':
