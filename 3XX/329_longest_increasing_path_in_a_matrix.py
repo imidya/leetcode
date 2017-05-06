@@ -1,4 +1,10 @@
 class Solution(object):
+
+    def check_direction(self, x, y, matrix):
+        # check up
+        if x - 1 >= 0:
+
+
     def longestIncreasingPath(self, matrix):
         """
         :type matrix: List[List[int]]
@@ -6,6 +12,8 @@ class Solution(object):
         """
         columns = len(matrix[0])
         rows = len(matrix)
+
+
 
 
 if __name__ == '__main__':
